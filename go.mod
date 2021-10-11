@@ -3,15 +3,13 @@ module github.com/vijayakumar-psg587/golang-fiber-tut
 go 1.14
 
 require (
-	github.com/0xAX/notificator v0.0.0-20210731104411-c42e3d4a43ee // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
-	github.com/codegangsta/envy v0.0.0-20141216192214-4b78388c8ce4 // indirect
-	github.com/codegangsta/gin v0.0.0-20171026143024-cafe2ce98974 // indirect
-	github.com/cosmtrek/air v1.27.3 // indirect
-	github.com/go-delve/delve v1.7.1 // indirect
-	github.com/gofiber/fiber/v2 v2.16.0
-	github.com/mattn/go-shellwords v1.0.12 // indirect
-	github.com/tidwall/gjson v1.8.1
+	github.com/gobuffalo/envy v1.9.0 // indirect
+	github.com/gobuffalo/packd v1.0.0 // indirect
+	github.com/golang-module/carbon v1.5.4 // indirect
+	github.com/golobby/container/v3 v3.0.2 // indirect
+	github.com/joho/godotenv v1.4.0 // indirect
+	github.com/rogpeppe/go-internal v1.8.0 // indirect
+	github.com/spf13/viper v1.9.0 // indirect
+	github.com/tidwall/gjson v1.9.3
 	github.com/tidwall/pretty v1.2.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

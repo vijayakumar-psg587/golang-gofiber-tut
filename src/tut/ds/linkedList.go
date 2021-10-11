@@ -14,7 +14,6 @@ func CreateLinkedList() []customTypes.Node {
 
 	// Adding second val
 	nodeArr = *customTypes.AddNode(&nodeArr, "22")
-
 	fmt.Printf("Node Arr initial %v\n", nodeArr)
 	return nodeArr
 }

@@ -4,14 +4,23 @@
 This repo servers as the kickstarter for golang projects
 Also servers as a starting point for gofiber/gprc/microservice development
 
-
+****Purpose and Deps used****
+Golang dependencies and core functionalities being tried out
+ 
+**Deps used**
+ - `carbon`  - For dealing with time
+ - `container` -  For dealing with DI
+ - `viper` -  For dealing with environment
 
 ****Steps to run in local****
+-
 - Download the repo
 - Run `go install` to install all dependencies
 - Now run `go run main.go` to get started
+- Make sure to run `go mod tidy` at the end
 
 ****Additional features to Note****
+-
 - To download/install a particular version of dependecy - ` go get github.com/lib/pq@v1.8.0`
 - To download latest use `go get github.com/lib/pq@latest`
 - TO download and update all transitive dependecies of a particular module `
